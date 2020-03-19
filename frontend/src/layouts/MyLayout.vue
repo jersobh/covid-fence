@@ -47,7 +47,7 @@
           <q-toggle @change="toggleAnimalIcons" v-model="animalIcons" icon="warning" label="Receber alertas" />
         </q-item>
         <q-item>
-          <q-toggle v-model="heatmapLayer" color="red-7" icon="layers" label="Mapa de calor" />
+          <q-toggle v-model="heatmapLayer" icon="layers" label="Mapa de calor" />
         </q-item>
         <q-item>
         <q-btn-group
