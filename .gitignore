@@ -1,0 +1,4 @@
+frontend/dist
+frontend/node_modules
+frontend/src-cordova
+server/node_modules

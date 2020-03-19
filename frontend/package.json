@@ -1,0 +1,45 @@
+{
+  "name": "location_tool",
+  "version": "0.0.1",
+  "description": "COVID-19 virtual fence system",
+  "productName": "COVID-19 FENCE",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "jersobh@gmail.com",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.6.0",
+    "axios": "^0.18.0",
+    "firebase": "^7.11.0",
+    "quasar": "^1.9.10",
+    "vue2-leaflet": "^1.2.3",
+    "vue2-leaflet-heatmap": "^1.0.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.6.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
