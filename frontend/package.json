@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.6.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "firebase": "^7.11.0",
     "quasar": "^1.9.10",
     "vue2-leaflet": "^1.2.3",
